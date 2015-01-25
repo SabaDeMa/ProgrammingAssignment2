@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x=matrix()){
 
 
 cacheSolve <- function(x, ...){
-	# this string set matrice equal to the one at prendinve
+	# this string set "matrice" equal to the one at prendinve
 	# (if any)
 	matrice <- x$prendinve()
 	# if "matrice" is not NULL, R print a message and return
